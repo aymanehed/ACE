@@ -1,5 +1,8 @@
 package Data;
 
+import org.springframework.stereotype.Component;
+
+@Component("data1")
 public class DataImpl implements IData{
     @Override
     public double getData() {
